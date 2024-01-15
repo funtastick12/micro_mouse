@@ -1,4 +1,8 @@
-
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.text.NumberFormat;
 
 
 public class Main extends JPanel implements ActionListener {
@@ -228,5 +232,10 @@ public class Main extends JPanel implements ActionListener {
         frame.setMinimumSize(new Dimension(1300, 600));
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setVisible(true);
+    }
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
     }
 }
